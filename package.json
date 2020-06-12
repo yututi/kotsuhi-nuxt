@@ -1,0 +1,33 @@
+{
+  "name": "kotsuhiapp",
+  "version": "1.0.0",
+  "description": "交通費精算アプリ",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "ENV=production nuxt-ts generate",
+    "start": "nuxt-ts start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "@nuxt/typescript-runtime": "^0.4.0",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "dexie": "^2.0.4",
+    "firebase": "^7.14.6",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.0.0",
+    "nuxt-fontawesome": "^0.4.0",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.3.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
